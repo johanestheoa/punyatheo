@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Johanes Theo Adrian — Full Stack Developer, API Engineer, AI Enthusiast and Cyber Security Enthusiast.">
+  <title>Johanes Theo Adrian — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="site-header" id="header">
+    <a class="brand" href="#home" aria-label="Johanes Theo Adrian home">
+      <span class="brand-mark">&lt;/&gt;</span>
+      <span>JTA<span class="accent">.</span></span>
+    </a>
+
+    <button class="mobile-menu" id="mobileMenu" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#certificates" class="nav-link">Certificates</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#github" class="nav-link">GitHub</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span id="themeIcon">☾</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid-bg"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR CREATIVE PROJECTS</p>
+        <h1>Johanes<br><span>Theo Adrian</span></h1>
+        <div class="role-line">
+          <span>A</span>
+          <span class="typing" id="typingText"></span><span class="cursor">|</span>
+        </div>
+        <p class="hero-description">
+          I build digital experiences, APIs and intelligent systems with a focus on clean logic,
+          useful technology and thoughtful engineering.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary magnetic">Explore Projects <span>↗</span></a>
+          <a href="#contact" class="btn btn-ghost magnetic">Let's Connect <span>→</span></a>
+        </div>
+      </div>
+
+      <div class="digital-core-wrap reveal" id="coreWrap">
+        <canvas id="digitalCore" aria-label="Interactive digital core visualization"></canvas>
+        <div class="core-label">DIGITAL<br><span>CORE</span></div>
+        <div class="core-orbit orbit-a"></div>
+        <div class="core-orbit orbit-b"></div>
+        <div class="core-orbit orbit-c"></div>
+      </div>
+
+      <aside class="strengths reveal">
+        <p class="eyebrow">CORE STRENGTHS</p>
+        <div class="strength">
+          <span>01</span>
+          <div><strong>Problem Solving</strong><small>Turning complex problems into practical solutions.</small></div>
+        </div>
+        <div class="strength">
+          <span>02</span>
+          <div><strong>Logical Thinking</strong><small>Building systems from clear, structured reasoning.</small></div>
+        </div>
+        <div class="strength">
+          <span>03</span>
+          <div><strong>Data & Numeric Analysis</strong><small>Finding patterns and making decisions from data.</small></div>
+        </div>
+      </aside>
+
+      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="section section-light" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">01 / 06</span>
+          <h2>Education<span>.</span></h2>
+          <p>A timeline of where the foundation was built and the skills developed along the way.</p>
+        </div>
+
+        <div class="education-timeline">
+          <article class="edu-card reveal">
+            <div class="edu-year">20XX — 20XX</div>
+            <div class="edu-marker"></div>
+            <div class="edu-content">
+              <p class="tag">HIGH SCHOOL</p>
+              <h3>Placeholder High School</h3>
+              <p class="muted">Science / Technology track — placeholder institution data.</p>
+              <div class="skill-pills">
+                <span>Problem Solving</span><span>Basic Programming</span><span>Computer Skills</span>
+                <span>Teamwork</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="edu-card reveal">
+            <div class="edu-year">20XX — PRESENT</div>
+            <div class="edu-marker"></div>
+            <div class="edu-content">
+              <p class="tag">UNIVERSITY</p>
+              <h3>Universitas Kristen Satya Wacana</h3>
+              <p class="muted">Informatics Engineering — placeholder academic details.</p>
+              <div class="skill-pills">
+                <span>Web Development</span><span>Database</span><span>API Engineering</span>
+                <span>Software Engineering</span><span>AI Integration</span><span>Cyber Security</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="certificates">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">02 / 06</span>
+          <h2>Certificates & Achievement<span>.</span></h2>
+          <p>Click a certificate to open the full credential. Replace the placeholder images in <code>assets/certificates</code>.</p>
+        </div>
+        <div class="certificate-wall" id="certificateWall"></div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="stack">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">03 / 06</span>
+          <h2>Tech Stack<span>.</span></h2>
+          <p>Technologies and environments I have explored throughout my development journey.</p>
+        </div>
+
+        <div class="stack-grid">
+          <div class="stack-group reveal">
+            <span class="stack-index">01</span><h3>Programming</h3>
+            <div class="tech-list">
+              <span class="tech-chip"><b>HTML5</b><small>Markup</small></span>
+              <span class="tech-chip"><b>CSS3</b><small>Styling</small></span>
+              <span class="tech-chip"><b>JavaScript</b><small>Web</small></span>
+              <span class="tech-chip"><b>C</b><small>Programming</small></span>
+              <span class="tech-chip"><b>C++</b><small>Programming</small></span>
+              <span class="tech-chip"><b>PHP</b><small>Backend</small></span>
+            </div>
+          </div>
+          <div class="stack-group reveal">
+            <span class="stack-index">02</span><h3>Database & Framework</h3>
+            <div class="tech-list">
+              <span class="tech-chip"><b>MySQL</b><small>Database</small></span>
+              <span class="tech-chip"><b>Laravel</b><small>Framework</small></span>
+              <span class="tech-chip"><b>Laragon</b><small>Dev Environment</small></span>
+            </div>
+          </div>
+          <div class="stack-group reveal">
+            <span class="stack-index">03</span><h3>Operating Systems</h3>
+            <div class="tech-list">
+              <span class="tech-chip"><b>Linux Mint</b><small>Linux</small></span>
+              <span class="tech-chip"><b>Kali Linux</b><small>Security</small></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">04 / 06</span>
+          <h2>Selected Projects<span>.</span></h2>
+          <p>Replace the placeholder links and screenshots with your real work.</p>
+        </div>
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="github">
+      <div class="container">
+        <div class="section-heading github-heading reveal">
+          <div>
+            <span class="section-number">05 / 06</span>
+            <h2>GitHub<span>.</span></h2>
+            <p>Public repositories are loaded dynamically from GitHub.</p>
+          </div>
+          <a class="btn btn-ghost" href="https://github.com/johanestheoa" target="_blank" rel="noopener">Open Profile ↗</a>
+        </div>
+
+        <div class="github-profile reveal" id="githubProfile">
+          <div class="github-avatar-skeleton"></div>
+          <div>
+            <div class="skeleton-line"></div><div class="skeleton-line short"></div>
+          </div>
+        </div>
+        <div class="github-grid" id="githubGrid">
+          <div class="loading-card">Loading repositories<span class="loading-dots">...</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-layout">
+          <div class="contact-copy reveal">
+            <span class="section-number">06 / 06</span>
+            <h2>Let's build<br><span>something.</span></h2>
+            <p>Have an idea, project, collaboration or just want to say hello? My inbox is open.</p>
+            <div class="social-links">
+              <a href="https://instagram.com/alti_code" target="_blank" rel="noopener"><span>Instagram</span><b>↗</b></a>
+              <a href="https://wa.me/6200000000000" target="_blank" rel="noopener"><span>WhatsApp</span><b>↗</b></a>
+              <a href="https://linkedin.com/in/placeholder" target="_blank" rel="noopener"><span>LinkedIn</span><b>↗</b></a>
+              <a href="mailto:hello@example.com"><span>Email</span><b>↗</b></a>
+            </div>
+          </div>
+
+          <div class="review-card reveal">
+            <div class="review-top">
+              <div><span class="tag">REVIEW MY PORTFOLIO</span><h3>How was your experience?</h3></div>
+              <div class="rating-summary"><strong id="averageRating">—</strong><span>/ 5</span><small id="reviewCount">No reviews yet</small></div>
+            </div>
+            <div class="stars-input" id="starsInput" role="radiogroup" aria-label="Choose a rating">
+              <button data-rating="1" aria-label="1 star">★</button>
+              <button data-rating="2" aria-label="2 stars">★</button>
+              <button data-rating="3" aria-label="3 stars">★</button>
+              <button data-rating="4" aria-label="4 stars">★</button>
+              <button data-rating="5" aria-label="5 stars">★</button>
+            </div>
+            <textarea id="reviewMessage" maxlength="280" placeholder="Optional message..."></textarea>
+            <button class="btn btn-primary submit-review" id="submitReview">Submit Review <span>→</span></button>
+            <p class="form-note" id="reviewStatus">Supabase is optional until you add your project keys.</p>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <span>© <span id="year"></span> Johanes Theo Adrian</span>
+          <span>Built with HTML · CSS · JavaScript</span>
+          <a href="#home">Back to top ↑</a>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="certificateModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog">
+      <button class="modal-close" data-close-modal aria-label="Close certificate">×</button>
+      <img id="modalCertificateImage" src="" alt="Certificate preview">
+      <div class="modal-meta">
+        <span class="tag" id="modalCertificateProvider"></span>
+        <h3 id="modalCertificateTitle"></h3>
+        <p id="modalCertificateYear"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/github.js"></script>
+  <script src="js/certificates.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/supabase.js"></script>
+</body>
+</html>
