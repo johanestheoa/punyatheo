@@ -1,8 +1,7 @@
 const projects=[
- {title:"Project Alpha",description:"Placeholder business website with a responsive interface and modern user experience.",url:"https://example.com",image:"assets/projects/project-01.svg",tags:["HTML","CSS","JavaScript"]},
- {title:"Project Beta",description:"Placeholder API-driven web application focused on clean data flow and useful interactions.",url:"https://example.com",image:"assets/projects/project-02.svg",tags:["JavaScript","API","MySQL"]},
- {title:"Project Gamma",description:"Placeholder developer experiment combining backend logic, UI and automation.",url:"https://example.com",image:"assets/projects/project-03.svg",tags:["PHP","Laravel","Database"]}
-];
+ {title:"Sia.SAT Reborn",description:"Revamping Sia.SAT as an integrated digital platform to help students manage their various academic and administrative needs more easily, quickly, and efficiently.",url:"https://sia-sat-reborn.vercel.app/",image:"assets/projects/SIASAT.png",tags:["HTML","CSS","JavaScript, Figma, Supabase"]},
+ {title:"Gift Card",description:"A romantic interactive digital birthday gift website featuring a heartfelt love story, personal memories, a special message, and an interactive birthday wish experience.",url:"https://gift-card-tan.vercel.app/",image:"assets/projects/GIFTCARD.png",tags:["JavaScript","CSS","HTML"]},
+ ];
 const projectsGrid=document.getElementById("projectsGrid");
 projectsGrid.innerHTML=projects.map(p=>`
 <a class="project-card reveal visible" href="${p.url}" target="_blank" rel="noopener">

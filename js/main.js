@@ -1,4 +1,4 @@
-const roles=["Full Stack Developer","API Engineer","AI Enthusiast","Cyber Security Enthusiast"];
+const roles=["a Full Stack Developer","an API Engineer","an AI Enthusiast","a Cyber Security Enthusiast"];
 let roleIndex=0,charIndex=0,deleting=false;
 const typingText=document.getElementById("typingText");
 function typeRole(){

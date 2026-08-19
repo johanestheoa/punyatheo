@@ -1,10 +1,6 @@
 const certificates=[
- {title:"Web Development Fundamentals",provider:"Placeholder Academy",year:"2025",image:"assets/certificates/cert-01.svg"},
- {title:"API Engineering Essentials",provider:"Placeholder Tech",year:"2025",image:"assets/certificates/cert-02.svg"},
- {title:"Cyber Security Fundamentals",provider:"Placeholder Security",year:"2026",image:"assets/certificates/cert-03.svg"},
- {title:"AI & Machine Learning Basics",provider:"Placeholder AI Lab",year:"2026",image:"assets/certificates/cert-04.svg"},
- {title:"Programming Competition",provider:"Placeholder Organization",year:"2024",image:"assets/certificates/cert-05.svg"},
- {title:"Database & SQL",provider:"Placeholder Academy",year:"2024",image:"assets/certificates/cert-06.svg"}
+ {title:"Building a Competitive Profile Before 30",provider:"PPI Jepang",year:"2026",image:"assets/certificates/ppi-jepang.jpeg"},
+ {title:"2nd Place in ACLEC",provider:"HMP S1 Teknik Informatika",year:"2026",image:"assets/certificates/aclec.jpeg"}
 ];
 const wall=document.getElementById("certificateWall");
 wall.innerHTML=certificates.map((c,i)=>`
