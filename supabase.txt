@@ -1,0 +1,5 @@
+# SUPABASE CONFIGURATION (KEEP-ALIVE)
+# Silakan isi dengan kredensial Supabase Anda (Settings -> API di Dashboard Supabase)
+
+SUPABASE_URL=https://your-project-id.supabase.co
+SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
